@@ -1,6 +1,6 @@
 """Example test module
 """
-from example_package import example_module
+from bom_spot import example_module
 
 def test_example_function():
     """Tests that the example function completes successfully
