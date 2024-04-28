@@ -1,0 +1,7 @@
+motion_tracker:
+  module: motion_tracker_plugin
+  class: MotionTrackerPlugin
+  package: tests.integration
+  subcommands:
+    - motion-tracker
+  description: "Runs the Motion Tracker Pipeline"

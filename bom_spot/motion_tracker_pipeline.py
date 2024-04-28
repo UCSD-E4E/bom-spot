@@ -1,11 +1,11 @@
 """
 Provides an algorithm for extracting motion regions from drone footage.
 """
+from bom_common.pipeline.library_config import LibraryConfig
+from bom_common.pipeline.tqdm_progress import TqdmProgress
 from bom_pipeline.factory import factory
 from bom_pipeline.initializer import Initializer
 from bom_pipeline.pipeline import Pipeline
-from pipeline.library_config import LibraryConfig
-from pipeline.tqdm_progress import TqdmProgress
 
 from bom_spot.decorators.debug import DisplayDebugRegions
 from bom_spot.stages.get_video_frame import GetVideoFrame
